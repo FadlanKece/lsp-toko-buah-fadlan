@@ -76,6 +76,7 @@
             </li>
             @if (Auth::guard('webcustomer')->check())
 	          <li class="nav-item"><a href="/wishlist" class="nav-link">Wishlist</a></li>
+              <li class="nav-item"><a href="/orders" class="nav-link">My Orders</a></li>
 	          <li class="nav-item"><a href=# class="nav-link">{{ Auth::guard('webcustomer')->user()->nama_customer }}</a></li>
 	          <li class="nav-item"><a href="/logout_customer" class="nav-link">Logout</a></li>
 	          <li class="nav-item cta cta-colored"><a href="/cart" class="nav-link"><span class="icon-shopping_cart"></span>[{{ $cart_total }}]</a></li>

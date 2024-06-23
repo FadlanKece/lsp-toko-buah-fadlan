@@ -14,7 +14,7 @@ class AboutSeeder extends Seeder
     public function run(): void
     {
         About::create([
-            'judul_website' => 'Fadlan Mart',
+            'judul_website' => 'FRESHPICK CORNER',
             'logo' => 'logo.png',
             'deskripsi' => 'Fadlan Mart is the coolest shop ever',
             'alamat' => 'Jl. Karadenan No. 7',
